@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8165B89134DADAD0021F3E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8165B88134DADAD0021F3E1 /* Foundation.framework */; };
+		A8165B8C134DADAD0021F3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8165B8B134DADAD0021F3E1 /* main.m */; };
+		A8165B96134DBA5F0021F3E1 /* lesson_1.m in Sources */ = {isa = PBXBuildFile; fileRef = A8165B95134DBA5F0021F3E1 /* lesson_1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8165B82134DADAD0021F3E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A8165B84134DADAD0021F3E1 /* bignerdranch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bignerdranch; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8165B88134DADAD0021F3E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8165B8B134DADAD0021F3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8165B8E134DADAD0021F3E1 /* bignerdranch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bignerdranch-Prefix.pch"; sourceTree = "<group>"; };
+		A8165B8F134DADAD0021F3E1 /* bignerdranch.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bignerdranch.1; sourceTree = "<group>"; };
+		A8165B95134DBA5F0021F3E1 /* lesson_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lesson_1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8165B81134DADAD0021F3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8165B89134DADAD0021F3E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8165B79134DADAD0021F3E1 = {
+			isa = PBXGroup;
+			children = (
+				A8165B8A134DADAD0021F3E1 /* bignerdranch */,
+				A8165B87134DADAD0021F3E1 /* Frameworks */,
+				A8165B85134DADAD0021F3E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8165B85134DADAD0021F3E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8165B84134DADAD0021F3E1 /* bignerdranch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8165B87134DADAD0021F3E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8165B88134DADAD0021F3E1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8165B8A134DADAD0021F3E1 /* bignerdranch */ = {
+			isa = PBXGroup;
+			children = (
+				A8165B95134DBA5F0021F3E1 /* lesson_1.m */,
+				A8165B8B134DADAD0021F3E1 /* main.m */,
+				A8165B8F134DADAD0021F3E1 /* bignerdranch.1 */,
+				A8165B8D134DADAD0021F3E1 /* Supporting Files */,
+			);
+			path = bignerdranch;
+			sourceTree = "<group>";
+		};
+		A8165B8D134DADAD0021F3E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8165B8E134DADAD0021F3E1 /* bignerdranch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8165B83134DADAD0021F3E1 /* bignerdranch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8165B92134DADAD0021F3E1 /* Build configuration list for PBXNativeTarget "bignerdranch" */;
+			buildPhases = (
+				A8165B80134DADAD0021F3E1 /* Sources */,
+				A8165B81134DADAD0021F3E1 /* Frameworks */,
+				A8165B82134DADAD0021F3E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bignerdranch;
+			productName = bignerdranch;
+			productReference = A8165B84134DADAD0021F3E1 /* bignerdranch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8165B7B134DADAD0021F3E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "nexiles GmbH";
+			};
+			buildConfigurationList = A8165B7E134DADAD0021F3E1 /* Build configuration list for PBXProject "bignerdranch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8165B79134DADAD0021F3E1;
+			productRefGroup = A8165B85134DADAD0021F3E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8165B83134DADAD0021F3E1 /* bignerdranch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8165B80134DADAD0021F3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8165B8C134DADAD0021F3E1 /* main.m in Sources */,
+				A8165B96134DBA5F0021F3E1 /* lesson_1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8165B90134DADAD0021F3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A8165B91134DADAD0021F3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A8165B93134DADAD0021F3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bignerdranch/bignerdranch-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8165B94134DADAD0021F3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bignerdranch/bignerdranch-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8165B7E134DADAD0021F3E1 /* Build configuration list for PBXProject "bignerdranch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8165B90134DADAD0021F3E1 /* Debug */,
+				A8165B91134DADAD0021F3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8165B92134DADAD0021F3E1 /* Build configuration list for PBXNativeTarget "bignerdranch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8165B93134DADAD0021F3E1 /* Debug */,
+				A8165B94134DADAD0021F3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8165B7B134DADAD0021F3E1 /* Project object */;
+}
